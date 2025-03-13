@@ -1,0 +1,901 @@
+/* INBOX DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ .custom-card-table{
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+ #inboxTable thead {
+    display: none;
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#inboxTable td{
+    font-size: 12px !important;
+}
+
+#inboxTable th,
+#inboxTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+#inboxTable td:nth-child(4),
+#inboxTable th:nth-child(4) {
+    text-align: right !important; /* Align text to the right */
+    font-size: 10px !important;
+    color: #8c88a2;
+}
+
+#inboxTable th:nth-child(4) {
+    display: none; /* Hide the header */
+}
+
+/* Remove borders from the table and its elements */
+#inboxTable {
+    border: none;
+}
+#inboxTable,
+#inboxTable th,
+#inboxTable td {
+    border: none !important;
+}
+
+/* Remove borders from pagination */
+.dataTables_wrapper .dataTables_paginate {
+    border: none !important;
+}
+.dataTables_wrapper .dataTables_paginate a {
+    border: none !important;
+}
+
+/* Search Bar */
+ div.dt-container div.dt-search input{
+    margin-left: .5em;
+    display: inline-block;
+    width: auto !important;
+    padding: 0 16px 0 16px !important;
+    border-radius: 100px;
+ }
+
+ /* for columns opened/unopened */
+ .unopened {
+    font-weight: bold;
+    color: #000; /* Dark text */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Styling for opened columns */
+.opened {
+    color: #777; /* Lightened text */
+}
+
+div.dt-container div.dt-info {
+    padding-top: 1em !important;
+    font: 10px !important;
+}
+
+#inboxTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#inboxTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+
+.card-header{
+    /* border: none !important; */
+    height: 55px;
+}
+
+
+/* INBOX DATATABLES END----------------------------------------------------------------------- */
+
+
+
+
+
+
+/* SENT ITEMS DATATABLES START----------------------------------------------------------------------- */
+#sentItemsTable thead {
+    display: none;
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#sentItemsTable td{
+    font-size: 12px !important;
+}
+
+#sentItemsTable th,
+#sentItemsTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+#sentItemsTable td:nth-child(4),
+#sentItemsTable th:nth-child(4) {
+    text-align: right !important; /* Align text to the right */
+    font-size: 10px !important;
+    color: #8c88a2;
+}
+
+#sentItemsTable th:nth-child(4) {
+    display: none; /* Hide the header */
+}
+
+/* Remove borders from the table and its elements */
+#sentItemsTable {
+    border: none;
+}
+#sentItemsTable,
+#sentItemsTable th,
+#sentItemsTable td {
+    border: none !important;
+}
+#sentItemsTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+#sentItemsTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+/* SENT ITEMS DATATABLES END----------------------------------------------------------------------- */
+
+
+
+
+
+/* faculty DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ #facultyTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#facultyTable td{
+    font-size: 12px !important;
+}
+
+#facultyTable th,
+#facultyTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#facultyTable {
+    border: none;
+}
+#facultyTable,
+#facultyTable th,
+#facultyTable td {
+    border: none !important;
+}
+
+#facultyTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#facultyTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+/* FACULTY DATATABLES END----------------------------------------------------------------------- */
+
+
+/* honorarium DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ #honorariumTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#honorariumTable td{
+    font-size: 12px !important;
+}
+
+#honorariumTable th,
+#honorariumTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#honorariumTable {
+    border: none;
+}
+#honorariumTable,
+#honorariumTable th,
+#honorariumTable td {
+    border: none !important;
+}
+
+#honorariumTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#honorariumTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+/* honorarium DATATABLES END----------------------------------------------------------------------- */
+
+
+/* TRANSACTION STATUS DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ #transactionStatusTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#transactionStatusTable td{
+    font-size: 12px !important;
+}
+
+#transactionStatusTable th,
+#transactionStatusTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#transactionStatusTable {
+    border: none;
+}
+#transactionStatusTable,
+#transactionStatusTable th,
+#transactionStatusTable td {
+    border: none !important;
+}
+
+#transactionStatusTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#transactionStatusTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+/* TRANSACTION STATUS DATATABLES END----------------------------------------------------------------------- */
+
+
+/* ACKNOWLEDGEMENTS DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ #acknowledgementTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#acknowledgementTable td{
+    font-size: 12px !important;
+}
+
+#acknowledgementTable th,
+#acknowledgementTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#acknowledgementTable {
+    border: none;
+}
+#acknowledgementTable,
+#acknowledgementTable th,
+#acknowledgementTable td {
+    border: none !important;
+}
+
+#acknowledgementTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#acknowledgementTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+
+#acknowledgementTable td:nth-child(4),
+#acknowledgementTable th:nth-child(4) {
+    text-align: left !important; /* Align text to the right */
+    font-size: 10px !important;
+    color: #8c88a2;
+}
+
+#acknowledgementTable th:nth-child(4) {
+    display: none; /* Hide the header */
+}
+/* ACKNOWLEDGEMENTS DATATABLES END----------------------------------------------------------------------- */
+
+/* HISTORY DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ #historyTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#historyTable td{
+    font-size: 12px !important;
+}
+
+#historyTable th,
+#historyTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#historyTable {
+    border: none;
+}
+#historyTable,
+#historyTable th,
+#historyTable td {
+    border: none !important;
+}
+
+#historyTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#historyTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+
+#historyTable td:nth-child(4),
+#historyTable th:nth-child(4) {
+    text-align: right !important; /* Align text to the right */
+    font-size: 10px !important;
+    color: #8c88a2;
+}
+
+#historyTable th:nth-child(4) {
+    display: none; /* Hide the header */
+}
+/* HISTORY DATATABLES END----------------------------------------------------------------------- */
+
+/* ACCOUNT REQUESTS DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ #requestAccountTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#requestAccountTable td{
+    font-size: 12px !important;
+}
+
+#requestAccountTable th,
+#requestAccountTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#requestAccountTable {
+    border: none;
+}
+#requestAccountTable,
+#requestAccountTable th,
+#requestAccountTable td {
+    border: none !important;
+}
+
+#requestAccountTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#requestAccountTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+
+
+/* ACCOUNT REQUEST DATATABLES END----------------------------------------------------------------------- */
+
+
+
+
+/* CASHIER IN QUEUE DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ #cashierInQueueTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#cashierInQueueTable td{
+    font-size: 12px !important;
+}
+
+#cashierInQueueTable th,
+#cashierInQueueTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#cashierInQueueTable {
+    border: none;
+}
+#cashierInQueueTable,
+#cashierInQueueTable th,
+#cashierInQueueTable td {
+    border: none !important;
+}
+
+#cashierInQueueTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#cashierInQueueTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+
+#cashierInQueueTable td:nth-child(4),
+#cashierInQueueTable th:nth-child(4) {
+    text-align: right !important; /* Align text to the right */
+    font-size: 10px !important;
+    color: #8c88a2;
+}
+
+#cashierInQueueTable th:nth-child(4) {
+    display: none; /* Hide the header */
+}
+/* CASHIER IN QUEUE DATATABLES END----------------------------------------------------------------------- */
+
+
+
+
+
+/* CASHIER IN QUEUE DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ #inQueueTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#inQueueTable td{
+    font-size: 12px !important;
+}
+
+#inQueueTable th,
+#inQueueTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#inQueueTable {
+    border: none;
+}
+#inQueueTable,
+#inQueueTable th,
+#inQueueTable td {
+    border: none !important;
+}
+
+#inQueueTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#inQueueTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+
+#inQueueTable td:nth-child(4),
+#inQueueTable th:nth-child(4) {
+    text-align: right !important; /* Align text to the right */
+    font-size: 10px !important;
+    color: #8c88a2;
+}
+
+#inQueueTable th:nth-child(4) {
+    display: none; /* Hide the header */
+}
+/* CASHIER IN QUEUE DATATABLES END----------------------------------------------------------------------- */
+
+
+
+
+
+/* CASHIER OPEN QUEUE DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ #cashierOpenQueueTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#cashierOpenQueueTable td{
+    font-size: 12px !important;
+}
+
+#cashierOpenQueueTable th,
+#cashierOpenQueueTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#cashierOpenQueueTable {
+    border: none;
+}
+#cashierOpenQueueTable,
+#cashierOpenQueueTable th,
+#cashierOpenQueueTable td {
+    border: none !important;
+}
+
+#cashierOpenQueueTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#cashierOpenQueueTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+/* CASHIER OPEN QUEUE DATATABLES END----------------------------------------------------------------------- */
+
+
+/* FACULTY TRACKING DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ .faculty_tracking_table thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+.faculty_tracking_table td{
+    font-size: 12px !important;
+}
+
+.faculty_tracking_table th,
+.faculty_tracking_table td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+.faculty_tracking_table {
+    border: none;
+}
+.faculty_tracking_table,
+.faculty_tracking_table th,
+.faculty_tracking_table td {
+    border: none !important;
+}
+
+.faculty_tracking_table tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+.faculty_tracking_table tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+/* FACULTY TRACKING DATATABLES END----------------------------------------------------------------------- */
+
+
+/* MAIN ON-HOLD DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ #onHoldTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#onHoldTable td{
+    font-size: 12px !important;
+}
+
+#onHoldTable th,
+#onHoldTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#onHoldTable {
+    border: none;
+}
+#onHoldTable,
+#onHoldTable th,
+#onHoldTable td {
+    border: none !important;
+}
+
+#onHoldTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#onHoldTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+
+#onHoldTable td:nth-child(6),
+#onHoldTable th:nth-child(6) {
+    text-align: right !important; /* Align text to the right */
+    font-size: 10px !important;
+    color: #8c88a2;
+}
+
+#onHoldTable th:nth-child(6) {
+    display: none; /* Hide the header */
+}
+/* ACKNOWLEDGEMENTS DATATABLES END----------------------------------------------------------------------- */
+
+
+/* THESIS ENTRIES DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ #thesisEntriesTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#thesisEntriesTable td{
+    font-size: 12px !important;
+}
+
+#thesisEntriesTable th,
+#thesisEntriesTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#thesisEntriesTable {
+    border: none;
+}
+#thesisEntriesTable,
+#thesisEntriesTable th,
+#thesisEntriesTable td {
+    border: none !important;
+}
+
+#thesisEntriesTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#thesisEntriesTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+/* FACULTY DATATABLES END----------------------------------------------------------------------- */
+
+/* THESIS OUT GOING DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ #thesisOutGoingTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#thesisOutGoingTable td{
+    font-size: 12px !important;
+}
+
+#thesisOutGoingTable th,
+#thesisOutGoingTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#thesisOutGoingTable {
+    border: none;
+}
+#thesisOutGoingTable,
+#thesisOutGoingTable th,
+#thesisOutGoingTable td {
+    border: none !important;
+}
+
+#thesisOutGoingTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#thesisOutGoingTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+/* THESIS OUT GOING DATATABLES END----------------------------------------------------------------------- */
+
+/* THESIS OPEN OUT GOING DATATABLES----------------------------------------------------------------------- */
+ /* Hide the table header */
+ #thesisOpenOutGoingTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#thesisOpenOutGoingTable td{
+    font-size: 12px !important;
+}
+
+#thesisOpenOutGoingTable th,
+#thesisOpenOutGoingTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#thesisOpenOutGoingTable {
+    border: none;
+}
+#thesisOpenOutGoingTable,
+#thesisOpenOutGoingTable th,
+#thesisOpenOutGoingTable td {
+    border: none !important;
+}
+
+#thesisOpenOutGoingTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#thesisOpenOutGoingTable     tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+/* THESIS OPEN OUT GOING DATATABLES END----------------------------------------------------------------------- */
+
+
+/* FOR COMPLIANCE DATATABLES START----------------------------------------------------------------------- */
+#complianceTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#complianceTable td{
+    font-size: 12px !important;
+}
+
+#complianceTable th,
+#complianceTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#complianceTable {
+    border: none;
+}
+#complianceTable,
+#complianceTable th,
+#complianceTable td {
+    border: none !important;
+}
+
+#complianceTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#complianceTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+/* FOR COMPLIANCE DATATABLES END----------------------------------------------------------------------- */
+
+
+/* FILTERED TRANSACTION DATATABLES START----------------------------------------------------------------------- */
+#filteredTransactionTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#filteredTransactionTable td{
+    font-size: 12px !important;
+}
+
+#filteredTransactionTable th,
+#filteredTransactionTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#filteredTransactionTable {
+    border: none;
+}
+#filteredTransactionTable,
+#filteredTransactionTable th,
+#filteredTransactionTable td {
+    border: none !important;
+}
+
+#filteredTransactionTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#filteredTransactionTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+/* FILTERED TRANSACTIONS DATATABLES END----------------------------------------------------------------------- */
+
+/* RELEASED TRANSACTION DATATABLES START----------------------------------------------------------------------- */
+#releasedTransactionTable thead {
+    /* display: none; */
+    color: #8c88a2;
+    font-size: 12px;
+}
+
+#releasedTransactionTable td{
+    font-size: 12px !important;
+}
+
+#releasedTransactionTable th,
+#releasedTransactionTable td {
+    text-align: left !important; /* Align text to the right */
+}
+
+/* Remove borders from the table and its elements */
+#releasedTransactionTable {
+    border: none;
+}
+#releasedTransactionTable,
+#releasedTransactionTable th,
+#releasedTransactionTable td {
+    border: none !important;
+}
+
+#releasedTransactionTable tbody tr {
+    border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
+}
+
+#releasedTransactionTable tbody tr:hover {
+    border-bottom: 1px solid #5D42F4;
+    box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 5px 5px -3px rgba(0,0,0,0.35);
+}
+/* RELEASED TRANSACTIONS DATATABLES END----------------------------------------------------------------------- */
+
+/* CUSTOM BUTTON START----------------------------------------------------------------------- */
+/* .bxs-trash-alt:hover{
+    color: #ff3f3f !important;
+} */
+/* CUSTOM BUTTON START----------------------------------------------------------------------- */
+
+.select2-container{
+    /* z-index: 1095; */
+}
+.swal2-container{
+    z-index: 1099 !important;
+}
+
